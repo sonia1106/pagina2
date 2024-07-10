@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../practica1/assets/css/footer.css">
+    <link rel="stylesheet" href="../practica1/assets/css/header/cabecera.css">
+    <link rel="stylesheet" href="../practica1/assets/css/main_con.css">
+    <title>contactanos</title>
+</head>
+<body>
+    <header>
+        <header class="cabecera">
+            <div class="logo">
+                <img src="../practica1/assets/img/logo.png" alt="">
+                <p>Vet & Pet Corner</p>
+            </div>
+            <nav class="menu">
+                <ul class="menu__lista">
+                    <li class="menu__item">
+                        <A class="menu__enlace_activo" href="index.html">Inicio</A>
+                    </li>
+                    <li class="menu__item">
+                        <A class="menu__enlace_activo" href="productos.html">Productos</A>
+                    </li>
+                    <li class="menu__item">
+                        <A class="menu__enlace_activo" href="informacion.html">Informacion</A>
+                    </li>
+                    <li class="menu__item">
+                        <A class="menu__enlace_activo" href="contactanos.html">Contacto</A>
+                    </li>
+                </ul>
+            </nav>
+            <div class="num">
+                <a class="num1" href="#" >Llamanos  +591 12345678
+                    <img class="umg_num" src="../practica1/assets/img/telephone-white.png" alt="">
+                </a>
+            </div>
+        </header>
+    </header>
+    <main class="main_for">
+        <div class="form-titu">
+            <h1>Regístrate a Vet & Pet Corner</h1>
+            <p>Para Consultas, Pedidos o Reservas</p>
+            <form>
+                <fieldset>
+                    <legend>Datos Personales *</legend>
+                    <div class="form_per">
+                        <div class="formularios">
+                            <label for="nombres">Nombres</label>
+                            <input type="text" id="nombres" name="nombres" required>
+                        </div>
+                        <div class="formularios">
+                            <label for="apellidos">Apellidos</label>
+                            <input type="text" id="apellidos" name="apellidos" required>
+                        </div>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <div class="formularios">
+                        <label for="correo">Correo Electrónico *</label>
+                        <input type="email" id="correo" name="correo" required>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <div class="formularios">
+                        <label for="telefono">Teléfono / Celular *</label>
+                        <div class="phone-input">
+                            <img class="img_bam" src="../practica1/assets/img/Bandera_de_Bolivia_(Estado).svg.png" alt="Bandera Bolivia">
+                            <span>+591</span>
+                            <input type="text" id="telefono" name="telefono" required>
+                        </div>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <div class="formularios">
+                        <label for="direccion">Dirección</label>
+                        <input type="text" id="direccion" name="direccion" placeholder="Ubicación completa, Barrio o Condominio / Calle / N° Casa">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <div class="formularios">
+                        <label for="descripcion">Descripción / Mensaje o Detalle</label>
+                        <textarea id="descripcion" name="descripcion" rows="4"></textarea>
+                    </div>
+                </fieldset>
+                <button class="btn_en" type="submit">Enviar</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>2024 Vet & Pet Corner. Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
