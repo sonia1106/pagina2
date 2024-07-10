@@ -1,0 +1,45 @@
+.main1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #21d7ff;
+    display: flex;
+    height: auto;
+}
+.letras{
+    flex-direction: column;
+    text-align: center;
+}
+.titulo{
+    color: white;
+    font-size: 40px;
+    padding: auto;
+}
+.titulo2{
+    font-size: 40px;
+    color: black;
+}
+.frase_main1{
+    color: white;
+    margin-bottom: auto;
+}
+
+.cajaimg_main1{
+    padding: 3rem;
+    flex: 2;
+    display: flex;
+    justify-content: center;
+
+}
+.img_main1{
+    height: 300px;
+    border-radius: 10%;
+    object-fit: cover; 
+    
+}
+
+@media (max-width: 700px){
+    .main1{
+        flex-direction: column;
+        height: auto;
+    }
+
+}

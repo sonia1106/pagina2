@@ -1,0 +1,32 @@
+.pre_pro{
+    text-align: center;
+}
+.caja_pro{
+    padding-right: 1rem;
+}
+.img_prod{
+    height: 300px;
+}
+.producto{
+    box-shadow: 7px 5px 5px rgb(99, 97, 97);
+    border-radius: 10%;
+    padding: 2.8rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 18rem;
+    
+}
+.productos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+  
+}
+@media (max-width: 700px){
+    .productos{
+        flex-direction: column;
+        height: auto;
+    }
+
+}
