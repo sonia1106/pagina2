@@ -1,0 +1,34 @@
+
+.acer_titu2{
+    color: #21d7ff;
+}
+
+.letras1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.img_acer{
+    height: 350px;
+}
+.img_caja{
+    padding: 4rem;
+}
+.acercaDe{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 3rem;
+    display: flex;
+}
+@media (max-width: 700px){
+    .acercaDe{
+        flex-direction: column;
+        height: auto;
+    }
+    .img_acer{
+        height: 250px;
+    }
+    .img_caja{
+        padding-left: 1rem;
+    }
+
+}
